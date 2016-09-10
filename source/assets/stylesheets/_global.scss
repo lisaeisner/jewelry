@@ -1,19 +1,6 @@
-body {
-  background-color: $light-gray;
-  color: $medium-gray;
+@include keyframes(fadeIn) {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-.delete-me {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-
-  .container {
-    text-align: center;
-
-    h1 {
-      font-weight: 200;
-    }
-  }
-}
+body { background-color: #000; }

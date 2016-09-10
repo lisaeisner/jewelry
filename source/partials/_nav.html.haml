@@ -1,0 +1,20 @@
+%header.navigation{:role => "banner"}
+  .navigation-wrapper
+    %a.logo{:href => "javascript:void(0)"}
+      %img{:alt => "Logo Image",
+           :src => "https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png"}/
+    %a#js-mobile-menu.navigation-menu-button{:href => "javascript:void(0)"} MENU
+    %nav{:role => "navigation"}
+      %ul#js-navigation-menu.navigation-menu.show
+        %li.nav-link
+          = link_to "Collection", "collection.html"
+        %li.nav-link
+          = link_to "Stores", "stores.html"
+        %li.nav-link
+          = link_to "Installations", "installations.html"
+        %li.nav-link
+          = link_to "LE for TF", "le-for-tf.html"
+        %li.nav-link
+          = link_to "Press", "press.html"
+        %li.nav-link
+          = link_to "About", "about.html"

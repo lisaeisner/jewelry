@@ -1,0 +1,13 @@
+.page-content {
+  padding: 1em;
+
+  @include media($medium-screen-up) {
+    margin: 0 auto;
+    max-width: 850px;
+    font-size: 1.125rem;
+  }
+}
+
+.page-title {
+  font-size: 3em;
+}
