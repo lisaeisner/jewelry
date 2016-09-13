@@ -4,3 +4,21 @@
 }
 
 body { background-color: #000; }
+
+.collection {
+  header.navigation {
+    position: absolute;
+  }
+
+  .slides-navigation {
+    font-size: 5em;
+  }
+
+  .slides-navigation .next {
+    right: 2rem;
+  }
+
+  .slides-navigation .prev {
+    left: 2rem;
+  }
+}

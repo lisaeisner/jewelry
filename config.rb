@@ -24,3 +24,11 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+activate :blog do |blog|
+  blog.prefix = "press"
+  blog.layout = "page.html"
+end
+
+page "/press/*", :layout => "page"
+

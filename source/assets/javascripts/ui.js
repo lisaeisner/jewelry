@@ -17,7 +17,7 @@ $(window).resize(function() {
   }
 });
 
-$(document).ready(function() {
+function menuSetup() {
   var menuToggle = $("#js-mobile-menu").unbind();
   $("#js-navigation-menu").removeClass("show");
 
@@ -29,4 +29,23 @@ $(document).ready(function() {
       }
     });
   });
-}); 
+}
+
+function slideSetup() {
+  $("#slides").superslides({
+    animation: 'fade',
+    animation_speed: 'slow',
+    play: 6000,
+    pagination: false,
+    margin_top: 0
+  });
+
+  $(".slides-navigation .next").on("click", function() {
+    $('#slides').superslides("animate", "next");
+  });
+
+
+  $(".slides-navigation .prev").on("click", function() {
+    $('#slides').superslides("animate", "prev");
+  });
+}
