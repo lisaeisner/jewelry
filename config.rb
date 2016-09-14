@@ -27,8 +27,10 @@ end
 
 activate :blog do |blog|
   blog.prefix = "press"
-  blog.layout = "page.html"
+  blog.paginate = true
+  blog.page_link = "p{num}"
+  blog.per_page = 10
 end
 
-page "/press/*", :layout => "page"
+page "/press/*", :layout => "blog"
 

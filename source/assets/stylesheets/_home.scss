@@ -13,7 +13,15 @@
   top: 0;
   width: 100%;
   z-index: -1;
+}
 
-  @include media($medium-screen-up) {
-  }
+.home {
+  @include align-items(center);
+  @include display(flex);
+  @include justify-content(center);
+
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }

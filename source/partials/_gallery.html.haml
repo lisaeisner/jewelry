@@ -1,0 +1,4 @@
+- unless current_page.data.gallery.nil?
+  .gallery-section
+    - current_page.data.gallery.each do |image|
+      = image_tag(image)

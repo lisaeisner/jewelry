@@ -11,3 +11,25 @@
 .page-title {
   font-size: 2em;
 }
+
+.gallery-section {
+  @include columns(2 10px);
+  width: 100%;
+
+  img {
+    display: inline-block;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  @include media($medium-screen-up) {
+    @include columns(3 10px);
+    width: 100%;
+
+    img {
+      display: inline-block;
+      margin-bottom: 0;
+      width: 100%;
+    }
+  }
+}
