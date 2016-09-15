@@ -1,8 +1,7 @@
 %header.navigation{:role => "banner"}
   .navigation-wrapper
-    %a.logo{:href => "/"}
-      %img{:alt => "Lisa Eisner Jewelry",
-           :src => image_path("butterfly_logo_white.svg")}
+    = link_to "/index.html", :class => "logo" do
+      = image_tag("butterfly_logo_white.svg")
     %a#js-mobile-menu.navigation-menu-button{:href => "javascript:void(0)"} MENU
     %nav{:role => "navigation"}
       %ul#js-navigation-menu.navigation-menu.show

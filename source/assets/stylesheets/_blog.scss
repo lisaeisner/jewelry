@@ -1,0 +1,31 @@
+.article-list {
+  list-style-type: none;
+}
+
+.article-list-item {
+  margin-bottom: $base-spacing * 1.5;
+}
+
+.article-title {
+  font-size: 1.25em;
+  margin-bottom: 0.25em;
+}
+
+.article-date {
+  font-size: .85em;
+  opacity: 0.5;
+  margin-bottom: $small-spacing;
+}
+
+.blog-article-info {
+  opacity: 0.5;
+  margin-bottom: $base-spacing;
+}
+
+.blog-article-content {
+  color: #aaa;
+
+  .gallery-section {
+    @include columns(2);
+  }
+}

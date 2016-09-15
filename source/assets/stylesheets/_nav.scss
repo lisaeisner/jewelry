@@ -3,7 +3,7 @@ header.navigation {
   $base-border-radius: 3px !default;
   $action-color: #477DCA !default;
   $dark-gray: #333 !default;
-  $large-screen: 53.75em !default;
+  $large-screen: 800px;
   $navigation-padding: 1em;
   $navigation-background: transparentize(white, 0.9);
   $navigation-color: transparentize(white, 0.3);
@@ -40,7 +40,7 @@ header.navigation {
 
     img {
       max-height: $navigation-height;
-      padding: 0.8em 0;
+      padding: 0.6em 0;
     }
   }
 
@@ -121,7 +121,9 @@ header.navigation {
     a {
       color: $navigation-color;
       display: inline-block;
+      letter-spacing: 2px;
       text-decoration: none;
+      text-transform: uppercase;
 
       @include media ($horizontal-bar-mode) {
         padding-right: 1em;

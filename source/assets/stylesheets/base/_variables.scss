@@ -1,5 +1,7 @@
 // Typography
-$base-font-family: "Futura", $helvetica, sans-serif;
+$futura: "futura-pt", Futura, Roboto, Helvetica, Arial, sans-serif;
+
+$base-font-family: $futura;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -19,7 +21,7 @@ $base-z-index: 0;
 $blue: #1565c0;
 $dark-gray: #333;
 $medium-gray: #999;
-$light-gray: #ddd;
+$light-gray: #bbb;
 $soft-white: #efefef;
 
 // Font Colors

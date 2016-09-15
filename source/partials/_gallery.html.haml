@@ -1,4 +1,8 @@
-- unless current_page.data.gallery.nil?
-  .gallery-section
-    - current_page.data.gallery.each do |image|
-      = image_tag(image)
+- gallery = current_page.data.gallery
+- unless gallery.nil?
+  - if gallery.size == 1
+    = image_tag(gallery.first)
+  - else
+    .gallery-section
+      - gallery.each do |image|
+        = image_tag(image)

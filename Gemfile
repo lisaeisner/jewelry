@@ -16,3 +16,4 @@ gem "neat", "~> 1.7"
 gem "sassc", "~> 1.8"
 
 gem "middleman-blog"
+gem "nokogiri"

@@ -1,3 +1,6 @@
 = wrap_layout :page do
-  = yield
-  = partial "partials/gallery"
+  .blog-article-info
+    %time= current_page.date.strftime('%b %e %Y')
+  .blog-article-content
+    = yield
+    = partial "partials/gallery"
