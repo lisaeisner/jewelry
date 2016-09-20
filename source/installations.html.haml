@@ -1,0 +1,16 @@
+---
+title: Installations
+layout: page
+---
+%ul.article-list
+  - blog("installations").articles.each do |article|
+    %li.article-list-item
+      %article
+        %h2.article-title
+          = link_to article.title, article
+        %h4.article-date
+          %time= article.date.strftime('%b %Y')
+        -# = article.summary
+        - if article.data.gallery?
+          = image_tag(article.data.gallery.first)
+

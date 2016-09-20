@@ -1,4 +1,0 @@
----
-title: Installations
-layout: page
----
