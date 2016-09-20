@@ -1,0 +1,9 @@
+.media-block {
+  @include display(flex);
+}
+
+.media-item {
+  @include flex(1);
+  border: solid 8px #000;
+  text-align: center;
+}
