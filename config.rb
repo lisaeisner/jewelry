@@ -27,6 +27,7 @@ end
 
 activate :blog do |blog|
   blog.prefix = "press"
+  blog.permalink = "/{year}/{title}.html"
   blog.paginate = true
   blog.page_link = "p{num}"
   blog.per_page = 10
