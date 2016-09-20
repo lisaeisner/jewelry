@@ -16,10 +16,10 @@
 }
 
 .home {
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  width: 100%;
+  // height: 100vh;
+  // position: absolute;
+  // top: 0;
+  // width: 100%;
 }
 
 .home--logo {
@@ -27,7 +27,13 @@
   @include animation-fill-mode(backwards);
   @include animation-delay(0.75s);
 
-  position: relative;
-  left: $base-spacing;
-  top: $base-spacing * 9;
+  @include outer-container;
+  // position: relative;
+  // left: $base-spacing;
+  // top: $base-spacing * 9;
+
+  .logotype {
+    margin: 10rem auto 0 auto;
+    padding: $base-spacing;
+  }
 }
