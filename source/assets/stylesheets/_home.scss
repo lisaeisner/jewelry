@@ -16,12 +16,18 @@
 }
 
 .home {
-  @include align-items(center);
-  @include display(flex);
-  @include justify-content(center);
-
   height: 100vh;
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.home--logo {
+  @include animation(fadeIn .75s ease-in);
+  @include animation-fill-mode(backwards);
+  @include animation-delay(0.75s);
+
+  position: relative;
+  left: $base-spacing;
+  top: $base-spacing * 9;
 }
