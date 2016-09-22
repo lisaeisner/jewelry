@@ -30,3 +30,15 @@
     @include columns(2);
   }
 }
+
+.press-section {
+  @include media($medium-screen-up) {
+    @include columns(2 10px);
+
+    .article-list-item {
+      break-inside: avoid;
+      margin-bottom: 0;
+      padding-bottom: $base-spacing * 1.5;
+    }
+  }
+}
