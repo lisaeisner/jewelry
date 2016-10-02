@@ -11,3 +11,13 @@ body { background-color: #000; }
   .slides-navigation .next { right: 2rem; }
   .slides-navigation .prev { left: 2rem; }
 }
+
+.stores-list {
+  font-size: 1.25em;
+  margin-top: $base-spacing;
+
+  @include media($large-screen-up) {
+    font-size: 1.5em;
+    margin-top: $base-spacing * 1.5;
+  }
+}

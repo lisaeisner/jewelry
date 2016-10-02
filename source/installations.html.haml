@@ -7,7 +7,7 @@ layout: page
     %li.article-list-item
       %article
         %h2.article-title
-          = link_to article.title, article
+          %em= link_to article.title, article
         %h4.article-date
           %time= article.date.strftime('%b %Y')
         -# = article.summary
