@@ -2,16 +2,17 @@
 title: "Video: Rihanna at the Superbowl"
 gallery:
  - rihanna_1.jpg
- - rihanna_2.jpg
- - rihanna_3.jpg
 ---
 Rihanna sports Lisa Eisner's jewelry in CBS's new teaser video for the Superbowl and Grammys broadcasts.
 
-<div class="video">
-  <div class="video-wrapper">
-    <iframe src="https://player.vimeo.com/video/152382522" width="650" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/139418336">Rihanna Grammys/Superbowl Teaser Vid  2016</a> from <a href="https://vimeo.com/user35635935">Lisa Eisner Jewelry</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-  </div>
-</div>
-
-<%= media_block(current_page.data.gallery[0]) %>
-<%= media_block(current_page.data.gallery[1..2]) %>
+<video id="my-video"
+       class="video-js vjs-big-play-centered vjs-16-9"
+       controls preload="auto"
+       poster="/assets/images/rihanna_1.jpg"
+       data-setup="{}">
+  <source src="/assets/videos/rihanna_cbs.mp4" type='video/mp4'>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+</video>

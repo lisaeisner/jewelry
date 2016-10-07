@@ -1,16 +1,24 @@
 ---
 title: "Lisa Eisner at Home: T-Magazine"
 gallery:
- - tmag_dec2014_2.jpg
- - tmag_dec2014_1.jpg
+ - TMagStyle_Dec2014_cover.jpg
+ - TMagStyle_Dec2014_left.jpg
+ - TMagStyle_Dec2014_right.jpg
 ---
 Lisa Eisner featured in the _New York Times_ T Magazine's video section.
 
-<div class="video">
-  <div class="video-wrapper">
-    <iframe src="//player.vimeo.com/video/115025561?byline=0&amp;portrait=0" width="650" height="365" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/115025561">Lisa Eisner at Home | T Magazine</a> from <a href="http://vimeo.com/user35635935">Lisa Eisner Jewelry</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-  </div>
-</div>
+<video id="my-video"
+       class="video-js vjs-big-play-centered vjs-16-9"
+       controls preload="auto"
+       poster="/assets/images/t_video_cover.jpg"
+       data-setup="{}">
+  <source src="/assets/videos/times_style_tour.mov" type='video/mp4'>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that
+    <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+  </p>
+</video>
 
 <%= media_block(current_page.data.gallery[0]) %>
 <%= media_block(current_page.data.gallery[1]) %>
+<%= media_block(current_page.data.gallery[2]) %>
