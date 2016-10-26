@@ -5,13 +5,18 @@
 
   @include media($medium-screen-up) {
     font-size: 1.25rem;
-    margin: 0 auto;
-    max-width: 850px;
+    margin: 0 $base-spacing;
+    // max-width: 850px;
   }
 
   h2 { font-size: 1.25em }
   h3 { font-size: 1.25em }
 }
+
+.page-content-text {
+  max-width: 750px;
+}
+
 
 .page-title {
   font-size: 2em;
@@ -26,7 +31,8 @@
 }
 
 .gallery-section {
-  @include columns(2 10px);
+  column-count: 2;
+  column-gap: 10px;
   width: 100%;
 
   img {
@@ -36,12 +42,13 @@
   }
 
   @include media($medium-screen-up) {
-    @include columns(3 10px);
+    column-count: 3;
+    column-gap: 50px;
     width: 100%;
 
     img {
       display: inline-block;
-      margin-bottom: 0;
+      margin-bottom: 50px;
       width: 100%;
     }
   }

@@ -33,7 +33,9 @@
 
 .press-section {
   @include media($medium-screen-up) {
-    @include columns(2 10px);
+    // @include columns(3 50px);
+    column-count: 3;
+    column-gap: 50px;
 
     .article-list-item {
       break-inside: avoid;
