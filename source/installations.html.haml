@@ -5,13 +5,16 @@ layout: page
 %ul.article-list
   - blog("installations").articles.each do |article|
     %li.article-list-item
-      %article
-        %h2.article-title= article.title
-        - if article.data.location
-          %h4.article-location= article.data.location
-        %h4.article-date
-          %time= article.date.strftime('%b %Y')
-        - if article.data.gallery?
-          - article.data.gallery.each do |image|
-            = image_tag(image)
+      %article.tile-section
+        .tile-section__info
+          %h3= article.title
+          - if article.data.location
+            %h3= article.data.location
+          %h3
+            %time= article.date.strftime('%b %Y')
+        .tile-section__images{data: { columns: true }}
+          - if article.data.gallery?
+            - article.data.gallery.each do |image|
+              .tile-section__images__item
+                = image_tag(image)
 

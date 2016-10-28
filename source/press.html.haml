@@ -3,12 +3,9 @@ title: Press
 layout: page
 blog: press
 ---
-.press-section
-  %ul.article-list
-    - blog("press").articles.each do |article|
-      %li.article-list-item
-        %article
-          %h2.article-title
-            = link_to article.title, article
-          - if article.data.gallery?
-            = image_tag(article.data.gallery.first)
+%ul.press-grid{ data: { columns: true }}
+  - blog("press").articles.each do |article|
+    %li.press-grid__item
+      %h2.press-grid__item__title= link_to article.title, article
+      - if article.data.gallery?
+        = image_tag(article.data.gallery.first)
