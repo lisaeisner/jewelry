@@ -1,11 +1,9 @@
 ---
 title: Press
 layout: page
-blog: press
 ---
 %ul.press-grid{ data: { columns: true }}
-  - blog("press").articles.each do |article|
+  - data.press.each do |item|
     %li.press-grid__item
-      %h2.press-grid__item__title= link_to article.title, article
-      - if article.data.gallery?
-        = image_tag(article.data.gallery.first)
+      %h2.press-grid__item__title= item.title
+      = image_tag(item.images.first)

@@ -1,0 +1,120 @@
+- title: "Wall Street Journal Magazine"
+  date: 10-01-2016
+  images:
+    - "press/wsj-01.jpg"
+    - "press/wsj-02.jpg"
+    - "press/wsj-03.jpg"
+    - "press/wsj-04.jpg"
+    - "press/wsj-05.jpg"
+    - "press/wsj-06.jpg"
+    - "press/wsj-07.jpg"
+    - "press/wsj-08.jpg"
+- title: "Italian Vogue"
+  date:
+  images:
+    - "press/italian-vogue-01.jpg"
+    - "press/italian-vogue-02.jpg"
+    - "press/italian-vogue-03.jpg"
+    - "press/italian-vogue-04.jpg"
+    - "press/italian-vogue-05.jpg"
+    - "press/italian-vogue-06.jpg"
+- title: "CR Fashion Book: Willow Wears Lisa"
+  date:
+  images:
+    - "press/cr-willow-01.jpg"
+    - "press/cr-willow-02.jpg"
+    - "press/cr-willow-03.jpg"
+    - "press/cr-willow-04.jpg"
+    - "press/cr-willow-05.jpg"
+    - "press/cr-willow-06.jpg"
+    - "press/cr-willow-text-01.jpg"
+    - "press/cr-willow-text-02.jpg"
+- title: "W Magazine Miley Cyrus"
+  date:
+  images:
+    - "press/w-mag-miley-cyrus-01.jpg"
+    - "press/w-mag-miley-cyrus-02.jpg"
+    - "press/w-mag-miley-cyrus-03.jpg"
+- title: "T Magazine"
+  date:
+  images:
+    - "press/t-mag-style-left.jpg"
+    - "press/t-mag-style-right.jpg"
+  video: "t-mag-style-video.mov"
+- title: "C Magazine"
+  date: 05-01-2014
+  images:
+    - "press/c-mag-2014-01.jpg"
+    - "press/c-mag-2014-02.jpg"
+- title: "10 Magazine"
+  date: 09-01-2014
+  images:
+    - "press/10-mag-2014-01.jpg"
+    - "press/10-mag-2014-02.jpg"
+- title: "Elle September 2016"
+  date: 09-01-2016
+  images:
+    - "press/sept-elle-01.jpg"
+    - "press/sept-elle-02.jpg"
+- title: "C Magazine: Friends with Benefits"
+  date: 03-01-2015
+  images:
+    - "press/c-mag-2015-01.jpg"
+    - "press/c-mag-2015-02.jpg"
+    - "press/c-mag-2015-03.jpg"
+    - "press/c-mag-2015-04.jpg"
+    - "press/c-mag-2015-05.jpg"
+- title: "Vogue April 2014"
+  date: 04-01-2015
+  images:
+    - "press/vogue-2014-01.jpg"
+- title: "Harper's Bazaar 2014"
+  date: 12-01-2014
+  images:
+    - "press/harpers-bazaar-2014-01.jpg"
+- title: "CR Fashion Book: Staz"
+  date: 
+  images:
+    - "press/cr-staz-01.jpg"
+    - "press/cr-staz-02.jpg"
+    - "press/cr-staz-03.jpg"
+    - "press/cr-staz-04.jpg"
+    - "press/cr-staz-05.jpg"
+    - "press/cr-staz-06.jpg"
+- title: "Vanity Fair April 2014"
+  date: 04-01-2014
+  images:
+    - "press/vanity-fair-apr-2014-01.jpg"
+- title: "Vanity Fair August 2014"
+  date: 08-01-2014
+  images:
+    - "press/vanity-fair-aug-2014-01.jpg"
+    - "press/vanity-fair-aug-2014-02.jpg"
+- title: "W Magazine February 2015"
+  date: 02-01-2015
+  images:
+    - "press/w-mag-j-adore-01.jpg"
+- title: "W Magazine October 2015"
+  date: 10-01-2015
+  images:
+    - "press/w-mag-oct-2015-01.jpg"
+- title: "Elle: Road to Marakesh"
+  date:
+  images:
+    - "press/elle-marakesh-01.jpg"
+    - "press/elle-marakesh-02.jpg"
+    - "press/elle-marakesh-03.jpg"
+    - "press/elle-marakesh-04.jpg"
+- title: "Porter September 2014"
+  date: 09-01-2014
+  images:
+    - "press/porter-sept-2014-01.jpg"
+- title: "People Magazine"
+  date:
+  images:
+    - "press/people-traci-01.jpg"
+    - "press/people-traci-02.jpg"
+- title: "Kidswear Bruce Weber"
+  date:
+  images:
+    - "press/kidswear-2016-01.jpg"
