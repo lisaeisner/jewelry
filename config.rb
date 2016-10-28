@@ -13,6 +13,13 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+ignore "press/template.html"
+
+data.press.each_with_index do |item, index|
+  proxy "/press/#{index}.html", "/press/template.html",
+        locals: { entry: item }, ignore: true
+end
+
 configure :development do
   activate :livereload
 end
@@ -35,7 +42,6 @@ activate :blog do |blog|
   blog.per_page = 10
 end
 
-page "/press/*", :layout => "blog"
 page "/installations/*", :layout => "blog"
 
 helpers do
