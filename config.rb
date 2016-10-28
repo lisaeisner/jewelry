@@ -27,15 +27,6 @@ activate :deploy do |deploy|
 end
 
 activate :blog do |blog|
-  blog.name = "press"
-  blog.prefix = "press"
-  blog.permalink = "/{year}/{title}.html"
-  blog.paginate = true
-  blog.page_link = "page/{num}"
-  blog.per_page = 10
-end
-
-activate :blog do |blog|
   blog.name = "installations"
   blog.prefix = "installations"
   blog.permalink = "/{year}/{title}.html"
