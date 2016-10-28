@@ -49,3 +49,9 @@ function slideSetup() {
     $('#slides').superslides("animate", "prev");
   });
 }
+
+function popupSetup() {
+  $('.ajax-popup-link').magnificPopup({
+    type: 'ajax'
+  });
+}

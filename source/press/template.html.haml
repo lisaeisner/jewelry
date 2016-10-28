@@ -1,7 +1,8 @@
 ---
 layout: false
 ---
-%h1.press-entry__title= entry.title
-.press-entry__images
-  - entry.images.each do |image|
-    = image_tag(image)
+.press-entry
+  %h1.press-entry__title= entry.title
+  .press-entry__images
+    - entry.images.each do |image|
+      = image_tag(image)

@@ -1,12 +1,14 @@
 //= require smoothstate.min
 //= require jquery.superslides.min
 //= require video.min
+//= require jquery.magnific-popup.min
 //= require ui
 
 
 $(document).ready(function() {
   menuSetup();
   slideSetup();
+  popupSetup();
 
   // smoothState init
   $("#main").smoothState({
@@ -26,6 +28,7 @@ $(document).ready(function() {
     onAfter: function($container, $newContent) {
       menuSetup();
       slideSetup();
+      popupSetup();
     }
   });
 });

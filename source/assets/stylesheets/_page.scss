@@ -109,3 +109,21 @@
   }
 }
 
+.press-entry {
+  max-width: $large-screen;
+  margin: $base-spacing auto;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .mfp-close {
+    color: #fff;
+    font-family: $base-font-family;
+    font-weight: 400;
+    font-size: 48px;
+    opacity: 1;
+    margin: 15px 10px;
+  }
+}

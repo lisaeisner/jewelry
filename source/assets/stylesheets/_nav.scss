@@ -23,13 +23,13 @@ header.navigation {
   // border-bottom: 1px solid darken($navigation-background, 10);
   min-height: $navigation-height;
   width: 100%;
-  z-index: 999;
+  z-index: 100;
 
   .navigation-wrapper {
     // @include outer-container;
     @include clearfix;
     position: relative;
-    z-index: 9999;
+    z-index: 200;
   }
 
   .logo {
@@ -71,7 +71,7 @@ header.navigation {
   nav {
     float: none;
     min-height: $navigation-height;
-    z-index: 9999999;
+    z-index: 300;
 
     @include media ($horizontal-bar-mode) {
       float: right;
@@ -85,7 +85,7 @@ header.navigation {
     overflow: visible;
     padding: 0;
     width: 100%;
-    z-index: 9999;
+    z-index: 400;
 
     &.show {
       display: block;
@@ -108,7 +108,7 @@ header.navigation {
     padding-right: 0.8em;
     text-align: right;
     width: 100%;
-    z-index: 9999;
+    z-index: 400;
 
     @include media ($horizontal-bar-mode) {
       background: transparent;
