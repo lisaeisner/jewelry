@@ -110,8 +110,8 @@
 }
 
 .press-entry {
-  max-width: $large-screen;
   margin: $base-spacing auto;
+  max-width: $large-screen;
 
   &__title {
     font-size: 2rem;
@@ -126,4 +126,36 @@
     opacity: 1;
     margin: 15px 10px;
   }
+}
+
+.installations-entry {
+  margin: $base-spacing auto;
+  max-width: $large-screen;
+
+  &__content {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .mfp-close {
+    color: #fff;
+    font-family: $base-font-family;
+    font-weight: 400;
+    font-size: 48px;
+    opacity: 1;
+    margin: 15px 10px;
+  }
+}
+
+.mfp-close {
+  color: #fff;
+  font-family: $base-font-family;
+  font-weight: 400;
+  font-size: 48px;
+  opacity: 1;
+  margin: 15px 10px;
+}
+
+.mfp-image-holder .mfp-close {
+  width: 40px;
 }

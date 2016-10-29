@@ -14,9 +14,15 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 ignore "press/template.html"
+ignore "installations/template.html"
 
 data.press.each_with_index do |item, index|
   proxy "/press/#{index}.html", "/press/template.html",
+        locals: { entry: item }, ignore: true
+end
+
+data.installations.each_with_index do |item, index|
+  proxy "/installations/#{index}.html", "/installations/template.html",
         locals: { entry: item }, ignore: true
 end
 
@@ -33,16 +39,6 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
 end
 
-activate :blog do |blog|
-  blog.name = "installations"
-  blog.prefix = "installations"
-  blog.permalink = "/{year}/{title}.html"
-  blog.paginate = true
-  blog.page_link = "page/{num}"
-  blog.per_page = 10
-end
-
-page "/installations/*", :layout => "blog"
 
 helpers do
   def media_block(images)

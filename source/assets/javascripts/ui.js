@@ -54,4 +54,20 @@ function popupSetup() {
   $('.ajax-popup-link').magnificPopup({
     type: 'ajax'
   });
+  $('.popup-link').magnificPopup({
+    type: 'image'
+  });
 }
+
+// function gallerySetup() {
+//   $(".installation-gallery").each(function() {
+//     console.log("function called");
+//     $(this).magnificPopup({
+//       delegate: "a",
+//       type: "image",
+//       gallery: {
+//         enabled: true
+//       }
+//     });
+//   });
+// }

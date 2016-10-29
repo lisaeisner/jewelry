@@ -9,6 +9,7 @@ $(document).ready(function() {
   menuSetup();
   slideSetup();
   popupSetup();
+  // gallerySetup();
 
   // smoothState init
   $("#main").smoothState({
@@ -29,6 +30,7 @@ $(document).ready(function() {
       menuSetup();
       slideSetup();
       popupSetup();
+      // gallerySetup();
     }
   });
 });

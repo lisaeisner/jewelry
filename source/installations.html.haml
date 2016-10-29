@@ -3,18 +3,19 @@ title: Installations
 layout: page
 ---
 %ul.article-list
-  - blog("installations").articles.each do |article|
+  - data.installations.each_with_index do |item, index|
     %li.article-list-item
       %article.tile-section
         .tile-section__info
-          %h3= article.title
-          - if article.data.location
-            %h3= article.data.location
+          %h3= item.title
+          - if item.location
+            %h3= item.location
           %h3
-            %time= article.date.strftime('%b %Y')
+            %time= item.date.strftime('%b %Y') if item.date
         .tile-section__images{data: { columns: true }}
-          - if article.data.gallery?
-            - article.data.gallery.each do |image|
-              .tile-section__images__item
-                = image_tag(image)
+          - if item.gallery?
+            - item.gallery.each do |image|
+              = link_to "installations/#{index}.html", class: "ajax-popup-link" do
+                .tile-section__images__item
+                  = image_tag(image)
 

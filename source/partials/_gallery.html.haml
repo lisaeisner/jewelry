@@ -1,8 +1,7 @@
 - gallery = current_page.data.gallery
-- unless gallery.nil?
-  - if gallery.size == 1
-    = image_tag(gallery.first)
-  - else
-    .gallery-section
-      - gallery.each do |image|
-        = image_tag(image)
+.tile-section
+  .tile-section__images{data: { columns: true }}
+    - gallery.each do |image|
+      = link_to image_path(image), class: "popup-link" do
+        .tile-section__images__item
+          = image_tag(image)
