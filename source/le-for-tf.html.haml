@@ -8,12 +8,14 @@ gallery:
   - "tom-ford/tf-04.jpg"
   - "tom-ford/tf-05.jpg"
 video: "videos/tom_ford_2015_cropped.mp4"
+video_poster: "tom_ford_video.jpg"
 ---
 - gallery = current_page.data.gallery
 - if current_page.data.video
   %video#my-video{class: "video-js vjs-big-play-centered vjs-16-9",
                   controls: true,
                   preload: "auto",
+                  poster: image_path(current_page.data.video_poster),
                   data: {setup: "{}"}}
     %source{src: image_path(current_page.data.video), type: "video/mp4"}
       %p.vjs-no-js
