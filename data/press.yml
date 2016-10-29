@@ -40,7 +40,7 @@
   images:
     - "press/t-mag-style-left.jpg"
     - "press/t-mag-style-right.jpg"
-  video: "t-mag-style-video.mov"
+  video: "videos/t-mag-style-video.mov"
 - title: "C Magazine"
   date: 05-01-2014
   images:

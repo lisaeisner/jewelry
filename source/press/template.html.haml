@@ -3,6 +3,16 @@ layout: false
 ---
 .press-entry
   %h1.press-entry__title= entry.title
+  .press-entry__video
+    - unless entry.video.nil?
+      %video#my-video{class: "video-js vjs-big-play-centered",
+                      controls: true,
+                      preload: "auto",
+                      data: {setup: "{}"}}
+        %source{src: image_path(entry.video), type: "video/mp4"}
+          %p.vjs-no-js
+            To view this video please enable JavaScript, and consider upgrading to
+            a web browser that supports HTML5 video.
   .press-entry__images
     - entry.images.each do |image|
       = image_tag(image)

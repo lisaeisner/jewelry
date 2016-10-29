@@ -118,6 +118,20 @@
     font-weight: 400;
   }
 
+  &__video {
+    video#my-video {
+      height: auto;
+      margin-bottom: $base-spacing;
+      width: 100%;
+    }
+  }
+
+  &__images {
+    img {
+      margin-bottom: $base-spacing;
+    }
+  }
+
   .mfp-close {
     color: #fff;
     font-family: $base-font-family;

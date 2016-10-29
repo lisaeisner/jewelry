@@ -7,5 +7,21 @@ gallery:
   - "tom-ford/tf-03.jpg"
   - "tom-ford/tf-04.jpg"
   - "tom-ford/tf-05.jpg"
+video: "videos/tom_ford_2015_cropped.mp4"
 ---
-= partial "partials/gallery"
+- gallery = current_page.data.gallery
+- if current_page.data.video
+  %video#my-video{class: "video-js vjs-big-play-centered vjs-16-9",
+                  controls: true,
+                  preload: "auto",
+                  data: {setup: "{}"}}
+    %source{src: image_path(current_page.data.video), type: "video/mp4"}
+      %p.vjs-no-js
+        To view this video please enable JavaScript, and consider upgrading to
+        a web browser that supports HTML5 video.
+.tile-section
+  .tile-section__images{data: { columns: true }}
+    - gallery.each do |image|
+      = link_to image_path(image), class: "popup-link" do
+        .tile-section__images__item
+          = image_tag(image)
