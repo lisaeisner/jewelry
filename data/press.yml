@@ -29,18 +29,18 @@
     - "press/cr-willow-06.jpg"
     - "press/cr-willow-text-01.jpg"
     - "press/cr-willow-text-02.jpg"
-- title: "W Magazine Miley Cyrus"
-  date:
-  images:
-    - "press/w-mag-miley-cyrus-01.jpg"
-    - "press/w-mag-miley-cyrus-02.jpg"
-    - "press/w-mag-miley-cyrus-03.jpg"
 - title: "T Magazine"
   date:
   images:
     - "press/t-mag-style-left.jpg"
     - "press/t-mag-style-right.jpg"
   video: "videos/t-mag-style-video.mov"
+- title: "W Magazine Miley Cyrus"
+  date:
+  images:
+    - "press/w-mag-miley-cyrus-01.jpg"
+    - "press/w-mag-miley-cyrus-02.jpg"
+    - "press/w-mag-miley-cyrus-03.jpg"
 - title: "C Magazine"
   date: 05-01-2014
   images:
@@ -109,12 +109,8 @@
   date: 09-01-2014
   images:
     - "press/porter-sept-2014-01.jpg"
-- title: "People Magazine"
-  date:
-  images:
-    - "press/people-traci-01.jpg"
-    - "press/people-traci-02.jpg"
 - title: "Kidswear Bruce Weber"
   date:
   images:
     - "press/kidswear-2016-01.jpg"
+    - "press/kidswear-2016-02.jpg"

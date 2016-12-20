@@ -10,8 +10,6 @@ layout: page
           %h3= item.title
           - if item.location
             %h3= item.location
-          %h3
-            %time= item.date.strftime('%b %Y') if item.date
         .tile-section__images{data: { columns: true }}
           - if item.gallery?
             - item.gallery.each do |image|
