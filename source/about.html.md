@@ -26,7 +26,9 @@ line expanded into some of the world’s top luxury retailers: Maxfield (LA),
 Net-a-Porter, Karry Berreby (Paris), and Forty Five Ten (Dallas). An
 installation of her jewelry was held in the exclusive Jean Prouvé Nomade
 Structure at fashion retailer Maxfield (Nomad 1957, 2015), with her first NY
-exhibit opening November 2016 at Salon 94.
+exhibit held at Salon 94 in 2016. In Summer 2017, Bergdorf Goodman began
+carrying the jewelry line within their unique floor curated by Linda Fargo,
+showcasing Farrow's most coveted pieces of fashion
 
 > “I am—and will always be—inspired by California in the 70’s. Especially Big
 > Sur. I had this vision of driving down Highway 1 and finding this beach shack
