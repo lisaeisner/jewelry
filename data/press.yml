@@ -1,16 +1,16 @@
-- title: "PORTER Magazine"
+- title: "Porter 2017"
   date: 5-01-2017
   images:
-    - "press/Porter_Summer-2017-1.jpg"
     - "press/Porter_Summer-2017-2.jpg"
+    - "press/Porter_Summer-2017-1.jpg"
     - "press/Porter_Summer-2017-3.jpg"
     - "press/Porter_Summer-2017-4.jpg"
     - "press/Porter_Summer-2017-5.jpg"
-- title: "Bergdorf Goodman Magazine"
+- title: "Bergdorf Goodman 2017"
   date: 5-01-2017
   images:
     - "press/BGMAG-000-LisaEisner.jpg"
-- title: "Wall Street Journal Magazine"
+- title: "Wall Street Journal Magazine - Inez & Vinoodh"
   date: 10-01-2016
   images:
     - "press/wsj-01.jpg"
@@ -21,7 +21,7 @@
     - "press/wsj-06.jpg"
     - "press/wsj-07.jpg"
     - "press/wsj-08.jpg"
-- title: "Italian Vogue"
+- title: "Vogue Italia 2016 - Bruce Weber"
   date:
   images:
     - "press/italian-vogue-01.jpg"
@@ -30,7 +30,7 @@
     - "press/italian-vogue-04.jpg"
     - "press/italian-vogue-05.jpg"
     - "press/italian-vogue-06.jpg"
-- title: "CR Fashion Book: Willow Wears Lisa"
+- title: "CR Fashion Book 2016"
   date:
   images:
     - "press/cr-willow-01.jpg"
@@ -41,34 +41,34 @@
     - "press/cr-willow-06.jpg"
     - "press/cr-willow-text-01.jpg"
     - "press/cr-willow-text-02.jpg"
-- title: "T Magazine"
+- title: "T Magazine 2014"
   date:
   images:
     - "press/t-mag-style-left.jpg"
     - "press/t-mag-style-right.jpg"
   video: "videos/t-mag-style-video.mov"
-- title: "W Magazine Miley Cyrus"
+- title: "W Magazine 2015 (Miley)"
   date:
   images:
+    - "press/w-mag-miley-cyrus-03.jpg"
     - "press/w-mag-miley-cyrus-01.jpg"
     - "press/w-mag-miley-cyrus-02.jpg"
-    - "press/w-mag-miley-cyrus-03.jpg"
-- title: "C Magazine"
+- title: "C Magazine 2015 (rare bird)"
   date: 05-01-2014
   images:
     - "press/c-mag-2014-01.jpg"
     - "press/c-mag-2014-02.jpg"
-- title: "10 Magazine"
+- title: "10 Magazine 2014"
   date: 09-01-2014
   images:
     - "press/10-mag-2014-01.jpg"
     - "press/10-mag-2014-02.jpg"
-- title: "Elle September 2016"
+- title: "Elle 2016"
   date: 09-01-2016
   images:
-    - "press/sept-elle-01.jpg"
     - "press/sept-elle-02.jpg"
-- title: "C Magazine: Friends with Benefits"
+    - "press/sept-elle-01.jpg"
+- title: "C Magazine 2014 (Friends with Benefits)"
   date: 03-01-2015
   images:
     - "press/c-mag-2015-01.jpg"
@@ -76,7 +76,7 @@
     - "press/c-mag-2015-03.jpg"
     - "press/c-mag-2015-04.jpg"
     - "press/c-mag-2015-05.jpg"
-- title: "Vogue April 2014"
+- title: "Vogue 2014"
   date: 04-01-2015
   images:
     - "press/vogue-2014-01.jpg"
@@ -84,16 +84,16 @@
   date: 12-01-2014
   images:
     - "press/harpers-bazaar-2014-01.jpg"
-- title: "CR Fashion Book: Staz"
+- title: "CR Fashion Book 2016 (Staz)"
   date: 
   images:
-    - "press/cr-staz-01.jpg"
     - "press/cr-staz-02.jpg"
+    - "press/cr-staz-01.jpg"
     - "press/cr-staz-03.jpg"
     - "press/cr-staz-04.jpg"
     - "press/cr-staz-05.jpg"
     - "press/cr-staz-06.jpg"
-- title: "Vanity Fair April 2014"
+- title: "Vanity Fair 2014"
   date: 04-01-2014
   images:
     - "press/vanity-fair-apr-2014-01.jpg"
@@ -102,27 +102,27 @@
   images:
     - "press/vanity-fair-aug-2014-01.jpg"
     - "press/vanity-fair-aug-2014-02.jpg"
-- title: "W Magazine February 2015"
+- title: "W Magazine 2015"
   date: 02-01-2015
   images:
     - "press/w-mag-j-adore-01.jpg"
-- title: "W Magazine October 2015"
+- title: "W Magazine 2015"
   date: 10-01-2015
   images:
     - "press/w-mag-oct-2015-01.jpg"
-- title: "Elle: Road to Marakesh"
+- title: "Elle 2015 (Marrakech)"
   date:
   images:
+    - "press/elle-marakesh-04.jpg"
     - "press/elle-marakesh-01.jpg"
     - "press/elle-marakesh-02.jpg"
     - "press/elle-marakesh-03.jpg"
-    - "press/elle-marakesh-04.jpg"
-- title: "Porter September 2014"
-  date: 09-01-2014
-  images:
-    - "press/porter-sept-2014-01.jpg"
-- title: "Kidswear Bruce Weber"
+- title: "Kidswear YEAR - Bruce Weber"
   date:
   images:
     - "press/kidswear-2016-01.jpg"
     - "press/kidswear-2016-02.jpg"
+- title: "Porter 2014"
+  date: 09-01-2014
+  images:
+    - "press/porter-sept-2014-01.jpg"
