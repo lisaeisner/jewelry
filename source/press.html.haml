@@ -3,8 +3,8 @@ title: Press
 layout: page
 ---
 %ul.press-grid{ data: { columns: true }}
-  - data.press.each_with_index do |item, index|
+  - data.press.each_with_index do |item|
     %li.press-grid__item
-      = link_to "press/#{index}.html", class: "ajax-popup-link" do
+      = link_to "press/#{item.title.to_slug}.html", class: "ajax-popup-link" do
         %h2.press-grid__item__title= item.title
         = image_tag(item.images.first)

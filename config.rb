@@ -16,9 +16,24 @@ page '/*.txt', layout: false
 ignore "press/template.html"
 ignore "installations/template.html"
 
-data.press.each_with_index do |item, index|
-  proxy "/press/#{index}.html", "/press/template.html",
-        locals: { entry: item }, ignore: true
+# Custom String#to_slug method for better URLs
+String.class_eval do
+  def to_slug
+    value = mb_chars.normalize(:kd).gsub(/[^\x00-\x7F]/n, '').to_s
+    value.gsub!(/[']+/, '')
+    value.gsub!(/\W+/, ' ')
+    value.strip!
+    value.downcase!
+    value.gsub!(' ', '-')
+    value
+  end
+end
+
+data.press.each_with_index do |item|
+  proxy "/press/#{item.title.to_slug}.html",
+        '/press/template.html',
+        locals: { entry: item },
+        ignore: true
 end
 
 data.installations.each_with_index do |item, index|
