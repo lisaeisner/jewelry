@@ -29,17 +29,24 @@ String.class_eval do
   end
 end
 
-data.press.each_with_index do |item|
+data.press.each do |item|
   proxy "/press/#{item.title.to_slug}.html",
         '/press/template.html',
         locals: { entry: item },
         ignore: true
 end
 
-data.installations.each_with_index do |item, index|
-  proxy "/installations/#{index}.html", "/installations/template.html",
-        locals: { entry: item }, ignore: true
+data.installations.each do |item|
+  proxy "/installations/#{item.title.to_slug}.html",
+        '/installations/template.html',
+        locals: { entry: item },
+        ignore: true
 end
+
+# data.installations.each_with_index do |item, index|
+#   proxy "/installations/#{index}.html", "/installations/template.html",
+#         locals: { entry: item }, ignore: true
+# end
 
 configure :development do
   activate :livereload

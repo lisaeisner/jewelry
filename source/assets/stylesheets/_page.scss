@@ -5,8 +5,9 @@
 
   @include media($medium-screen-up) {
     font-size: 1.25rem;
-    margin: 0 $base-spacing;
-    // max-width: 850px;
+    // margin: 0 $base-spacing;
+    margin: 0 auto;
+    max-width: 1600px;
   }
 
   h2 { font-size: 1.25em }

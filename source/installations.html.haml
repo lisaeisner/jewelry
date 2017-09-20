@@ -2,18 +2,10 @@
 title: Installations
 layout: page
 ---
-%ul.article-list
-  - data.installations.each_with_index do |item, index|
-    %li.article-list-item
-      %article.tile-section
-        .tile-section__info
-          %h3= item.title
-          - if item.location
-            %h3= item.location
-        .tile-section__images{data: { columns: true }}
-          - if item.gallery?
-            - item.gallery.each do |image|
-              = link_to "installations/#{index}.html", class: "ajax-popup-link" do
-                .tile-section__images__item
-                  = image_tag(image)
-
+%ul.press-grid{data: { columns: true }}
+  - data.installations.each_with_index do |item|
+    %li.press-grid__item
+      = link_to "installations/#{item.title.to_slug}.html", class: "ajax-popup-link" do
+        %h2.press-grid__item__title= item.title
+        %h3.press-grid__item__sub-title= item.location
+        = image_tag(item.images.first)
