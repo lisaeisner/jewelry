@@ -1,0 +1,7 @@
+---
+layout: false
+---
+.installations-entry
+  .installations-entry__images
+  - entry.images.each do |image|
+    = image_tag(image)
