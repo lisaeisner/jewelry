@@ -1,7 +1,7 @@
 activate :directory_indexes
 activate :autoprefixer
 activate :sprockets
-activate :image_optim
+activate :imageoptim
 
 set :relative_links, true
 set :css_dir, "assets/stylesheets"
@@ -15,8 +15,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-ignore "press/template.html"
-ignore "projects/template.html"
+ignore 'press/template.html'
+ignore 'projects/template.html'
 
 # Custom String#to_slug method for better URLs
 String.class_eval do
