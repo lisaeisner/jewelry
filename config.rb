@@ -1,7 +1,7 @@
 activate :directory_indexes
 activate :autoprefixer
 activate :sprockets
-activate :imageoptim
+activate :image_optim
 
 set :relative_links, true
 set :css_dir, "assets/stylesheets"
@@ -16,7 +16,7 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 ignore "press/template.html"
-ignore "installations/template.html"
+ignore "projects/template.html"
 
 # Custom String#to_slug method for better URLs
 String.class_eval do
@@ -38,9 +38,9 @@ data.press.each do |item|
         ignore: true
 end
 
-data.installations.each do |item|
-  proxy "/installations/#{item.title.to_slug}.html",
-        '/installations/template.html',
+data.projects.each do |item|
+  proxy "/projects/#{item.title.to_slug}.html",
+        '/projects/template.html',
         locals: { entry: item },
         ignore: true
 end
