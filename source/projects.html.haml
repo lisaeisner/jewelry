@@ -1,0 +1,11 @@
+---
+title: Projects
+layout: page
+---
+%ul.press-grid{data: { columns: true }}
+  - data.projects.each_with_index do |item|
+    %li.press-grid__item
+      = link_to "projects/#{item.title.to_slug}.html", class: "ajax-popup-link" do
+        %h2.press-grid__item__title= item.title
+        %h3.press-grid__item__sub-title= item.location
+        = image_tag(item.images.first)
