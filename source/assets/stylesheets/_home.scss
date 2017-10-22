@@ -1,10 +1,16 @@
-.home::after {
-  @include animation(fadeIn .75s ease-in);
-  @include animation-fill-mode(backwards);
-  background-image: url(image-path("background_LE.jpg"));
+$home-background-image: url(image-path("background_LE.jpg"));
+
+@mixin full-bleed-bg($image) {
+  background-image: $image;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.home::after {
+  @include animation(fadeIn .75s ease-in);
+  @include animation-fill-mode(backwards);
+  @include full-bleed-bg($home-background-image);
   content: '';
   display: block;
   height: 100%;
@@ -15,22 +21,12 @@
   z-index: -1;
 }
 
-.home {
-  // height: 100vh;
-  // position: absolute;
-  // top: 0;
-  // width: 100%;
-}
-
 .home--logo {
   @include animation(fadeIn .75s ease-in);
   @include animation-fill-mode(backwards);
   @include animation-delay(0.75s);
 
   @include outer-container;
-  // position: relative;
-  // left: $base-spacing;
-  // top: $base-spacing * 9;
 
   .logotype {
     margin: 10rem auto 0 auto;

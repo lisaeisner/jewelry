@@ -1,0 +1,10 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.page-content {
+  @include animation(fadeIn .75s ease-in);
+  @include animation-fill-mode(backwards);
+}
+

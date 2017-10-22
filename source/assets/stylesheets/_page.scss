@@ -1,34 +1,5 @@
-.page-content {
-  @include animation(fadeIn .75s ease-in);
-  @include animation-fill-mode(backwards);
-  padding: 1.5em;
-
-  @include media($medium-screen-up) {
-    font-size: 1.25rem;
-    // margin: 0 $base-spacing;
-    margin: 0 auto;
-    max-width: 1600px;
-  }
-
-  h2 { font-size: 1.25em }
-  h3 { font-size: 1.25em }
-}
-
 .page-content-text {
   max-width: 750px;
-}
-
-
-.page-title {
-  font-size: 2em;
-  font-weight: 400;
-  letter-spacing: 3px;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-
-  @include media($large-screen-up) {
-    font-size: 2.25em;
-  }
 }
 
 .gallery-section {
@@ -85,29 +56,6 @@
   .column { float: left; }
   .size-1of2 { width: 50%; }
   .size-1of3 { width: 33.333%; }
-}
-
-.press-grid {
-  margin-top: $base-spacing;
-  margin-left: -($base-spacing);
-  margin-right: -($base-spacing);
-
-  // mobile first
-  &__item {
-    margin: $base-spacing;
-    &__title { font-weight: 400; }
-  }
-
-  &[data-columns]::before { content: '2 .column.size-1of2'; }
-
-  .column { float: left; }
-  .size-1of2 { width: 50%; }
-  .size-1of3 { width: 33.333%; }
-
-  // large screens
-  @include media($medium-screen-up) {
-    &[data-columns]::before { content: '3 .column.size-1of3'; }
-  }
 }
 
 .press-entry {
