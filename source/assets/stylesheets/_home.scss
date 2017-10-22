@@ -1,7 +1,7 @@
 .home::after {
   @include animation(fadeIn .75s ease-in);
   @include animation-fill-mode(backwards);
-  background-image: url(image-path("bg1.jpg"));
+  background-image: url(image-path("background_LE.jpg"));
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
