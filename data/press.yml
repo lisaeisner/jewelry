@@ -146,6 +146,7 @@
   date: 12-01-2014
   images:
     - "press/harpers-bazaar-2014-01.jpg"
+
 - title: "CR Fashion Book 2016"
   date: 
   images:
@@ -159,6 +160,7 @@
   date: 04-01-2014
   images:
     - "press/vanity-fair-apr-2014-01.jpg"
+
 - title: "Vanity Fair August 2014"
   date: 08-01-2014
   images:
@@ -172,6 +174,19 @@
   date: 10-01-2015
   images:
     - "press/w-mag-oct-2015-01.jpg"
+
+- title: "Kidswear 2016 - Bruce Weber"
+  date:
+  images:
+    - "press/kidswear-2016-01.jpg"
+    - "press/kidswear-2016-02.jpg"
+
+
+- title: "Tracee Ellis Ross & Big Sean - Carpool Karaoke September 2017"
+  date: 8-01-2017
+  images:
+    - "press/tracee_ellis_ross_big_sean.jpg"
+
 - title: "Elle 2015"
   date:
   images:
@@ -179,11 +194,7 @@
     - "press/elle-marakesh-01.jpg"
     - "press/elle-marakesh-02.jpg"
     - "press/elle-marakesh-03.jpg"
-- title: "Kidswear 2016 - Bruce Weber"
-  date:
-  images:
-    - "press/kidswear-2016-01.jpg"
-    - "press/kidswear-2016-02.jpg"
+
 - title: "Porter 2014"
   date: 09-01-2014
   images:
