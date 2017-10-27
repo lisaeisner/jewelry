@@ -91,3 +91,16 @@
   width: 33.333%;
 }
 
+.masonry-columns {
+  column-count: 2;
+  column-gap: $base-spacing;
+
+  @include media($medium-screen-up) {
+    column-count: 3;
+  }
+
+  &__item {
+    break-inside: avoid;
+    padding-top: $base-spacing;
+  }
+}
